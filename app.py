@@ -51,11 +51,11 @@ if img_file_buffer is not None:
     if prediction[0][0]>0.5:
       st.header('Esta persona es:, Santiago  '+str( prediction[0][0]) )
     if prediction[0][1]>0.5:
-      st.header('Esta persona es: '+str( prediction[0][1]))
+      st.header('Esta persona es:, Santiago Arnold '+str( prediction[0][1]))
     if prediction[0][2]>0.5:
-      st.header('Esta persona es: '+str( prediction[0][2]) )
+      st.header('Esta persona es:, Nadie '+str( prediction[0][2]) )
     if prediction[0][3]>0.5:
-      st.header('Esta persona es: '+str( prediction[0][3]))
+      st.header('Esta persona es:, Jhorman❤️ '+str( prediction[0][3]))
     if prediction[0][4]>0.5:
-      st.header('Esta persona es: '+str( prediction[0][4]))       
+      st.header('Esta persona es:, Jcole '+str( prediction[0][4]))       
 
